@@ -72,6 +72,8 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 
 
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::RichTextBox^ richTextBox1;
+	private: System::Windows::Forms::DataGridView^ dataGridView1;
 
 
 
@@ -101,35 +103,38 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->btn_Open = (gcnew System::Windows::Forms::Button());
 			this->txtPath = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->btn_AgregarFR = (gcnew System::Windows::Forms::Button());
 			this->btn_AgregarPL = (gcnew System::Windows::Forms::Button());
 			this->txtNombre = (gcnew System::Windows::Forms::TextBox());
 			this->txtArtista = (gcnew System::Windows::Forms::TextBox());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->btn_Next = (gcnew System::Windows::Forms::PictureBox());
+			this->btn_Back = (gcnew System::Windows::Forms::PictureBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->btn_Play = (gcnew System::Windows::Forms::PictureBox());
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
-			this->btn_AgregarFR = (gcnew System::Windows::Forms::Button());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
-			this->btn_Play = (gcnew System::Windows::Forms::PictureBox());
-			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->rdb_Art_OA = (gcnew System::Windows::Forms::RadioButton());
-			this->rdb_Art_OD = (gcnew System::Windows::Forms::RadioButton());
-			this->rdb_Nom_OA = (gcnew System::Windows::Forms::RadioButton());
 			this->rdb_Nom_OD = (gcnew System::Windows::Forms::RadioButton());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->btn_Back = (gcnew System::Windows::Forms::PictureBox());
-			this->btn_Next = (gcnew System::Windows::Forms::PictureBox());
+			this->rdb_Nom_OA = (gcnew System::Windows::Forms::RadioButton());
+			this->rdb_Art_OD = (gcnew System::Windows::Forms::RadioButton());
+			this->rdb_Art_OA = (gcnew System::Windows::Forms::RadioButton());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->richTextBox1 = (gcnew System::Windows::Forms::RichTextBox());
+			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
 			this->pnlBarra->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
-			this->groupBox4->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Play))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Back))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Next))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Back))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Play))->BeginInit();
+			this->groupBox4->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// pnlBarra
@@ -138,14 +143,14 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->pnlBarra->Controls->Add(this->pictureBox3);
 			this->pnlBarra->Location = System::Drawing::Point(0, 0);
 			this->pnlBarra->Name = L"pnlBarra";
-			this->pnlBarra->Size = System::Drawing::Size(802, 40);
+			this->pnlBarra->Size = System::Drawing::Size(882, 40);
 			this->pnlBarra->TabIndex = 0;
 			// 
 			// pictureBox3
 			// 
 			this->pictureBox3->BackColor = System::Drawing::Color::White;
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(764, 0);
+			this->pictureBox3->Location = System::Drawing::Point(844, 0);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(35, 37);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -214,6 +219,21 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Agregar canción";
 			// 
+			// btn_AgregarFR
+			// 
+			this->btn_AgregarFR->AutoSize = true;
+			this->btn_AgregarFR->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(73)), static_cast<System::Int32>(static_cast<System::Byte>(190)),
+				static_cast<System::Int32>(static_cast<System::Byte>(37)));
+			this->btn_AgregarFR->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->btn_AgregarFR->Font = (gcnew System::Drawing::Font(L"Century Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->btn_AgregarFR->Location = System::Drawing::Point(25, 158);
+			this->btn_AgregarFR->Name = L"btn_AgregarFR";
+			this->btn_AgregarFR->Size = System::Drawing::Size(220, 29);
+			this->btn_AgregarFR->TabIndex = 5;
+			this->btn_AgregarFR->Text = L"Agregar a fila de reproducción";
+			this->btn_AgregarFR->UseVisualStyleBackColor = false;
+			// 
 			// btn_AgregarPL
 			// 
 			this->btn_AgregarPL->AutoSize = true;
@@ -281,24 +301,54 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"Fila de reproducción";
 			// 
+			// btn_Next
+			// 
+			this->btn_Next->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Next.Image")));
+			this->btn_Next->Location = System::Drawing::Point(169, 22);
+			this->btn_Next->Name = L"btn_Next";
+			this->btn_Next->Size = System::Drawing::Size(48, 50);
+			this->btn_Next->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->btn_Next->TabIndex = 8;
+			this->btn_Next->TabStop = false;
+			// 
+			// btn_Back
+			// 
+			this->btn_Back->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Back.Image")));
+			this->btn_Back->Location = System::Drawing::Point(16, 22);
+			this->btn_Back->Name = L"btn_Back";
+			this->btn_Back->Size = System::Drawing::Size(48, 48);
+			this->btn_Back->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->btn_Back->TabIndex = 7;
+			this->btn_Back->TabStop = false;
+			// 
+			// button1
+			// 
+			this->button1->AutoSize = true;
+			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(73)), static_cast<System::Int32>(static_cast<System::Byte>(190)),
+				static_cast<System::Int32>(static_cast<System::Byte>(37)));
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Century Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(16, 131);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(201, 29);
+			this->button1->TabIndex = 6;
+			this->button1->Text = L"Sincronizar";
+			this->button1->UseVisualStyleBackColor = false;
+			// 
+			// btn_Play
+			// 
+			this->btn_Play->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Play.Image")));
+			this->btn_Play->Location = System::Drawing::Point(91, 22);
+			this->btn_Play->Name = L"btn_Play";
+			this->btn_Play->Size = System::Drawing::Size(53, 48);
+			this->btn_Play->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->btn_Play->TabIndex = 0;
+			this->btn_Play->TabStop = false;
+			// 
 			// openFileDialog1
 			// 
 			this->openFileDialog1->FileName = L"openFileDialog1";
-			// 
-			// btn_AgregarFR
-			// 
-			this->btn_AgregarFR->AutoSize = true;
-			this->btn_AgregarFR->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(73)), static_cast<System::Int32>(static_cast<System::Byte>(190)),
-				static_cast<System::Int32>(static_cast<System::Byte>(37)));
-			this->btn_AgregarFR->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->btn_AgregarFR->Font = (gcnew System::Drawing::Font(L"Century Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->btn_AgregarFR->Location = System::Drawing::Point(25, 158);
-			this->btn_AgregarFR->Name = L"btn_AgregarFR";
-			this->btn_AgregarFR->Size = System::Drawing::Size(220, 29);
-			this->btn_AgregarFR->TabIndex = 5;
-			this->btn_AgregarFR->Text = L"Agregar a fila de reproducción";
-			this->btn_AgregarFR->UseVisualStyleBackColor = false;
 			// 
 			// groupBox4
 			// 
@@ -318,57 +368,16 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"Playlist";
 			// 
-			// btn_Play
+			// rdb_Nom_OD
 			// 
-			this->btn_Play->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Play.Image")));
-			this->btn_Play->Location = System::Drawing::Point(91, 22);
-			this->btn_Play->Name = L"btn_Play";
-			this->btn_Play->Size = System::Drawing::Size(53, 48);
-			this->btn_Play->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->btn_Play->TabIndex = 0;
-			this->btn_Play->TabStop = false;
-			// 
-			// label2
-			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(13, 32);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(50, 16);
-			this->label2->TabIndex = 0;
-			this->label2->Text = L"Artista";
-			// 
-			// label3
-			// 
-			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(13, 96);
-			this->label3->Name = L"label3";
-			this->label3->RightToLeft = System::Windows::Forms::RightToLeft::No;
-			this->label3->Size = System::Drawing::Size(60, 16);
-			this->label3->TabIndex = 1;
-			this->label3->Text = L"Nombre";
-			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
-			// 
-			// rdb_Art_OA
-			// 
-			this->rdb_Art_OA->AutoSize = true;
-			this->rdb_Art_OA->Location = System::Drawing::Point(16, 60);
-			this->rdb_Art_OA->Name = L"rdb_Art_OA";
-			this->rdb_Art_OA->Size = System::Drawing::Size(99, 20);
-			this->rdb_Art_OA->TabIndex = 2;
-			this->rdb_Art_OA->TabStop = true;
-			this->rdb_Art_OA->Text = L"Orden Asc.";
-			this->rdb_Art_OA->UseVisualStyleBackColor = true;
-			// 
-			// rdb_Art_OD
-			// 
-			this->rdb_Art_OD->AutoSize = true;
-			this->rdb_Art_OD->Location = System::Drawing::Point(130, 60);
-			this->rdb_Art_OD->Name = L"rdb_Art_OD";
-			this->rdb_Art_OD->Size = System::Drawing::Size(106, 20);
-			this->rdb_Art_OD->TabIndex = 3;
-			this->rdb_Art_OD->TabStop = true;
-			this->rdb_Art_OD->Text = L"Orden Desc.";
-			this->rdb_Art_OD->UseVisualStyleBackColor = true;
+			this->rdb_Nom_OD->AutoSize = true;
+			this->rdb_Nom_OD->Location = System::Drawing::Point(130, 125);
+			this->rdb_Nom_OD->Name = L"rdb_Nom_OD";
+			this->rdb_Nom_OD->Size = System::Drawing::Size(106, 20);
+			this->rdb_Nom_OD->TabIndex = 5;
+			this->rdb_Nom_OD->TabStop = true;
+			this->rdb_Nom_OD->Text = L"Orden Desc.";
+			this->rdb_Nom_OD->UseVisualStyleBackColor = true;
 			// 
 			// rdb_Nom_OA
 			// 
@@ -381,51 +390,63 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->rdb_Nom_OA->Text = L"Orden Asc.";
 			this->rdb_Nom_OA->UseVisualStyleBackColor = true;
 			// 
-			// rdb_Nom_OD
+			// rdb_Art_OD
 			// 
-			this->rdb_Nom_OD->AutoSize = true;
-			this->rdb_Nom_OD->Location = System::Drawing::Point(130, 125);
-			this->rdb_Nom_OD->Name = L"rdb_Nom_OD";
-			this->rdb_Nom_OD->Size = System::Drawing::Size(106, 20);
-			this->rdb_Nom_OD->TabIndex = 5;
-			this->rdb_Nom_OD->TabStop = true;
-			this->rdb_Nom_OD->Text = L"Orden Desc.";
-			this->rdb_Nom_OD->UseVisualStyleBackColor = true;
+			this->rdb_Art_OD->AutoSize = true;
+			this->rdb_Art_OD->Location = System::Drawing::Point(130, 60);
+			this->rdb_Art_OD->Name = L"rdb_Art_OD";
+			this->rdb_Art_OD->Size = System::Drawing::Size(106, 20);
+			this->rdb_Art_OD->TabIndex = 3;
+			this->rdb_Art_OD->TabStop = true;
+			this->rdb_Art_OD->Text = L"Orden Desc.";
+			this->rdb_Art_OD->UseVisualStyleBackColor = true;
 			// 
-			// button1
+			// rdb_Art_OA
 			// 
-			this->button1->AutoSize = true;
-			this->button1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(73)), static_cast<System::Int32>(static_cast<System::Byte>(190)),
-				static_cast<System::Int32>(static_cast<System::Byte>(37)));
-			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button1->Font = (gcnew System::Drawing::Font(L"Century Gothic", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(16, 131);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(201, 29);
-			this->button1->TabIndex = 6;
-			this->button1->Text = L"Sincronizar";
-			this->button1->UseVisualStyleBackColor = false;
+			this->rdb_Art_OA->AutoSize = true;
+			this->rdb_Art_OA->Location = System::Drawing::Point(16, 60);
+			this->rdb_Art_OA->Name = L"rdb_Art_OA";
+			this->rdb_Art_OA->Size = System::Drawing::Size(99, 20);
+			this->rdb_Art_OA->TabIndex = 2;
+			this->rdb_Art_OA->TabStop = true;
+			this->rdb_Art_OA->Text = L"Orden Asc.";
+			this->rdb_Art_OA->UseVisualStyleBackColor = true;
 			// 
-			// btn_Back
+			// label3
 			// 
-			this->btn_Back->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Back.Image")));
-			this->btn_Back->Location = System::Drawing::Point(16, 22);
-			this->btn_Back->Name = L"btn_Back";
-			this->btn_Back->Size = System::Drawing::Size(48, 48);
-			this->btn_Back->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->btn_Back->TabIndex = 7;
-			this->btn_Back->TabStop = false;
+			this->label3->AutoSize = true;
+			this->label3->Location = System::Drawing::Point(13, 96);
+			this->label3->Name = L"label3";
+			this->label3->RightToLeft = System::Windows::Forms::RightToLeft::No;
+			this->label3->Size = System::Drawing::Size(60, 16);
+			this->label3->TabIndex = 1;
+			this->label3->Text = L"Nombre";
+			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
-			// btn_Next
+			// label2
 			// 
-			this->btn_Next->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"btn_Next.Image")));
-			this->btn_Next->Location = System::Drawing::Point(169, 22);
-			this->btn_Next->Name = L"btn_Next";
-			this->btn_Next->Size = System::Drawing::Size(48, 50);
-			this->btn_Next->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
-			this->btn_Next->TabIndex = 8;
-			this->btn_Next->TabStop = false;
+			this->label2->AutoSize = true;
+			this->label2->Location = System::Drawing::Point(13, 32);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(50, 16);
+			this->label2->TabIndex = 0;
+			this->label2->Text = L"Artista";
+			// 
+			// richTextBox1
+			// 
+			this->richTextBox1->Location = System::Drawing::Point(559, 232);
+			this->richTextBox1->Name = L"richTextBox1";
+			this->richTextBox1->Size = System::Drawing::Size(309, 188);
+			this->richTextBox1->TabIndex = 18;
+			this->richTextBox1->Text = L"";
+			// 
+			// dataGridView1
+			// 
+			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
+			this->dataGridView1->Location = System::Drawing::Point(559, 52);
+			this->dataGridView1->Name = L"dataGridView1";
+			this->dataGridView1->Size = System::Drawing::Size(309, 150);
+			this->dataGridView1->TabIndex = 19;
 			// 
 			// MyForm
 			// 
@@ -433,7 +454,9 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(153)), static_cast<System::Int32>(static_cast<System::Byte>(37)),
 				static_cast<System::Int32>(static_cast<System::Byte>(190)));
-			this->ClientSize = System::Drawing::Size(802, 446);
+			this->ClientSize = System::Drawing::Size(880, 446);
+			this->Controls->Add(this->dataGridView1);
+			this->Controls->Add(this->richTextBox1);
 			this->Controls->Add(this->groupBox4);
 			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->groupBox2);
@@ -451,11 +474,12 @@ namespace Proyecto1PartyMixErwinLima1158120 {
 			this->groupBox2->PerformLayout();
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox3->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Next))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Back))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Play))->EndInit();
 			this->groupBox4->ResumeLayout(false);
 			this->groupBox4->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Play))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Back))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->btn_Next))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
