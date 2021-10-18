@@ -1,0 +1,11 @@
+﻿  MyForm.cpp
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(2,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(21,19): warning C4677: 'playlist': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Lista'
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\Lista.h(4): message : vea la declaración de 'Lista'
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(22,15): warning C4677: 'fila': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Lista'
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\Lista.h(4): message : vea la declaración de 'Lista'
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(794,20): warning C4101: 'e': variable local sin referencia
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(865,20): warning C4101: 'e': variable local sin referencia
+C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\MyForm.h(989,20): warning C4101: 'e': variable local sin referencia
+  Lista.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  Proyecto1_PartyMix_Erwin_Lima_1158120.vcxproj -> C:\Users\andre\Documents\Cursos U\Cuarto ciclo 2021\PROGRA AVZ\Proyecto1 Erwin Lima 1158120\Proyecto1_PartyMix_Erwin_Lima_1158120\Debug\Proyecto1_PartyMix_Erwin_Lima_1158120.exe

@@ -7,6 +7,6 @@ int main(array<String^>^ args) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	Proyecto1PartyMixErwinLima1158120::MyForm form;
-	Application::Run(% form);
+	Application::Run(%form);
 	return 0;
 }
